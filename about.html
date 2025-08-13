@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IBA Consulting - Accounting, Tax & Advisory Services </title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon1.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/about.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner1.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+      <img src="./assets/images/iba-logo.svg" alt="IBA Consulting Logo" width="150" height="auto">
+      </a>
+
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">
+         <img src="./assets/images/iba-logo2.svg" alt="IBA Consulting Logo" width="150" height="auto">
+         </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link active" data-nav-link>About Us</a>
+          </li>
+
+          <li>
+            <a href="services.html" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="services.html#tools" class="navbar-link" data-nav-link>Softwares</a>
+          </li>
+
+          <li class="mobile-only">
+            <a href="contact.html" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        
+         
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="contact.html" class="btn-outline">Contact Us</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner img-holder" style="--width: 720; --height: 960;">
+            <img src="./assets/images/about-banner1.jpg" width="720" height="960" loading="lazy" alt="about banner"
+              class="img-cover">
+
+          </div>
+
+          <div class="about-content">
+
+            <h3 class="h3">Who We Are</h3>
+
+            <p class="section-text">
+              IBA Consulting is a team of experienced professionals specializing in accounting, tax compliance, financial management, and business registration. 
+              Our deep understanding of financial systems and local regulations enables us to offer solutions that are both practical and strategic.
+            </p>
+
+            <h3 class="h3">Our Success</h3>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                <p class="section-text">
+                   Personalized Service  – We understand that every client is unique, and we strive to deliver personalized service that meets your individual needs.
+                </p>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                <p class="section-text">
+                   We understand that every client is unique, and we strive to deliver personalized service that meets your individual needs.
+                </p>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                <p class="section-text">
+                  Professional Expertise Our team consists of trusted professionals with diverse backgrounds and expertise, ensuring that your business receives the highest level of professionalism and expertise.
+                </p>
+              </li>
+
+
+              <li class="about-item">
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                <p class="section-text">
+                  Secure & Confidential At IBA, we go beyond numbers; we build relationships, foster growth, and contribute to your financial success story.
+                  With a commitment to excellence and a passion for precision, we stand as your reliable partner in navigating the intricate landscape of finance. 
+                  Choose (IBA) Consulting for a future defined by financial clarity, strategic insight, and unwavering support. Your success is our business.
+                </p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #CLIENTS
+      -->
+
+      <section class="section client" aria-label="client sector">
+        <div class="container">
+
+           <h3 class="h3"   style="text-align: center;">Sectors We Have Served</h3>
+
+          <p class="section-text"  style="text-align: center;">
+            Our team has extensive experience providing tailored financial and accounting solutions to businesses across a wide range of industries, from technology and retail to hospitality and non-profits.
+          </p>
+
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn" data-filter-btn="agri">Agri-Business</button>
+            </li>
+
+            <li>
+              <button class="filter-btn" data-filter-btn="estate">Real Estate</button>
+            </li>
+
+            <li>
+              <button class="filter-btn" data-filter-btn="car">Car Dealership</button>
+            </li>
+
+            <li>
+              <button class="filter-btn" data-filter-btn="children">Children Store</button>
+            </li>
+
+          
+
+          </ul>
+
+          <ul class="product-list has-scrollbar">
+
+            <li class="scrollbar-item" data-filter="estate">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/kerub.png" width="200" height="200" loading="lazy" alt="Kumwe Green Farm"
+                    class="img-cover">
+
+                </div>
+
+          
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="car">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/garox.jpg" width="200" height="200" loading="lazy" alt="Kumwe Green Farm"
+                    class="img-cover">
+
+                </div>
+
+          
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="car">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 1600; --height: 1600;">
+                  <img src="./assets/images/tg.jpeg" width="200" height="200" loading="lazy" alt="Kumwe Green Farm"
+                    class="img-cover">
+
+                </div>
+
+          
+              </div>
+            </li>
+
+             <li class="scrollbar-item" data-filter="agri">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/kumwe.jpg" width="200" height="200" loading="lazy" alt="Kumwe Green Farm"
+                    class="img-cover">
+
+                </div>
+
+          
+              </div>
+            </li>
+      
+    
+             <li class="scrollbar-item" data-filter="estate">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/maya.png" width="200" height="200" loading="lazy" alt="Maya Residencies"
+                    class="img-cover">
+
+                </div>
+
+          
+              </div>
+            </li>
+
+             <li class="scrollbar-item" data-filter="children">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/thefam.jpg" width="200" height="200" loading="lazy" alt="The Fam Children Store"
+                    class="img-cover">
+
+                </div>
+
+          
+              </div>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+        <script>
+
+              const filterBtn = document.querySelectorAll("[data-filter-btn]");
+              const filterItems = document.querySelectorAll("[data-filter]");
+
+              let lastClickedBtn = filterBtn[0];
+
+              const filter = function () {
+                lastClickedBtn.classList.remove("active");
+                this.classList.add("active");
+                lastClickedBtn = this;
+
+                for (let i = 0; i < filterItems.length; i++) {
+                  if (filterItems[i].dataset.filter === this.dataset.filterBtn) {
+                    filterItems[i].style.display = "block";
+                  } else {
+                    filterItems[i].style.display = "none";
+                  }
+                }
+              }
+
+              filterBtn.forEach(btn => {
+                btn.addEventListener("click", filter);
+              });
+
+
+        </script>
+
+
+
+
+
+
+
+
+
+   
+
+      <!-- 
+        - #TESTIMONIAL
+      -->
+
+      <section class="section testimonial"  id="testimonial" aria-label="testimonial">
+        <div class="container">
+
+          <h3  class="h3  text-center">What our clients say is important to us</h3> <br>
+          <p class="testimonial-text" >
+            We are committed to providing expert solutions and personalized services to help your business thrive. 
+            Here's what our clients have to say about working with us.
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li  class="scrollbar-item">
+              <div class="testimonial-card">
+               
+
+                <p>
+                  IBA Consultancy has been instrumental in streamlining our accounting and bookkeeping processes.
+                  Their meticulous approach has brought clarity and efficiency to our finances, allowing us to focus on what we do best—running our farm.
+                  Their attention to detail is truly exceptional.
+                </p>
+                <br>
+            
+                <h1>
+                  Fred Rwigamba <br>
+                  CEO | Kumwe Green Farms
+                </h1>
+             </div>
+
+            </li>
+
+              <li  class="scrollbar-item">
+              <div class="testimonial-card">
+               
+
+                <p>
+                  We trust IBA Consultancy implicitly with our financial management.
+                  Their team's deep knowledge of accounting and tax regulations  has given us immense peace of mind. 
+                  We have full confidence that our financial reporting is accurate and compliant, thanks to their support.
+                </p>
+                <br>
+            
+                <h1>
+                  Umutoni Huda <br>
+                  MD | UH Supplies Ltd
+                </h1>
+             </div>
+
+            </li>
+
+             <li  class="scrollbar-item">
+              <div class="testimonial-card">
+               
+
+                <p>
+                  Partnering with IBA Consultancy has been a game-changer for Maya Residences Ltd. 
+                  Their expert guidance on financial strategy has streamlined our operations and positioned us for sustainable growth.
+                  They are more than just accountants; they are a vital extension of our team.
+                </p>
+                <br>
+            
+                <h1>
+                  Twahirwa David <br>
+                  Property Manager | Maya Residences Ltd
+                </h1>
+             </div>
+            </li>
+
+
+          
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+     <!-- 
+        - #TEAM
+     -->
+    <h3 class="h3"   style="text-align: center;">Meet Our Team</h3><br>
+     <p class="team-text"   style="text-align: center;">
+            Our team of experienced professionals is dedicated to delivering exceptional service and support, so you can focus on growing your business.
+          </p>
+    <div class="wrapper">
+     
+    <div class="team">
+
+
+        <div class="team_member">
+          <div class="team_img">
+            <img src="assets/images/Steph.png" alt="Team_image">
+          </div>
+          <h3>Stephen Rutikanga</h3>
+          <p class="role">CEO/ Founder</p>
+          <p>
+            Stephen as the CEO and Founder of IBA Consultancy, has a deep passion for financial excellence and a decade of experience in the industry, Stephen is committed to helping businesses achieve their full potential.
+            <br><br>
+            His expertise lies in crafting sharp financial strategies, ensuring regulatory compliance, and optimizing business operations for sustainable growth. Under his leadership, IBA Consultancy has become a trusted partner for companies seeking clarity, balance, and accountability in their financial management. 
+          </p>
+        </div>
+
+        <div class="team_member">
+          <div class="team_img">
+            <img src="assets/images/musoni.png" alt="Team_image">
+          </div>
+          <h3>Christian Musoni</h3>
+          <p class="role">Tax Advisory Specialist</p>
+          <p>
+            Christian plays a key role in delivering IBA Consulting’s full suite of services, with specialized expertise in tax advisory. His strategic insight and commitment to compliance support clients across financial planning, business structuring, and operational efficiency.
+            <br> <br> 
+            Grounded in our Blueprint pillars—integrity, insight, innovation, and impact—Christian helps businesses rise with clarity and confidence, contributing to sustainable growth across every engagement.
+          </p>
+        </div>
+
+
+
+  
+      </div>
+    </div>	
+
+
+            
+
+
+
+
+
+
+      
+
+    </article>
+  </main>
+
+
+  
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+
+      <div class="footer-top section">
+        <div class="container">
+
+          <div class="footer-brand">
+
+            <a href="index.html" class="logo">
+            <img src="./assets/images/iba-logo2.svg" alt="IBA Consulting Logo" width="150" height="auto">
+            </a>
+
+            <p class="footer-text">
+              Let IBA Consulting be your partner in financial success.
+            </p>
+
+        
+          </div>
+
+          <ul class="footer-list">
+
+            <li>
+              <h3  class="h3"  style="color: #C9A14A;">Our Services</h3>
+            </li>
+
+            <li>
+              <a href="services.html" class="footer-link">Accounting and Bookkeeping</a>
+            </li>
+
+            <li>
+              <a href="services.html" class="footer-link">Financial Analysis</a>
+            </li>
+
+            <li>
+              <a href="services.html" class="footer-link">Tax Advisory</a>
+            </li>
+
+            <li>
+              <a href="services.html" class="footer-link">E-Tax Filing</a>
+            </li>
+
+
+            <li>
+              <a href="services.html" class="footer-link">Payroll Management</a>
+            </li>
+
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <h3  class="h3"  style="color: #C9A14A;">Our Services</h3>
+            </li>
+
+            <li>
+              <a href="about.html" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="services.html" class="footer-link">Our Services</a>
+            </li>
+
+            <li>
+              <a href="services.html#tools" class="footer-link">Softwares</a>
+            </li>
+
+        
+        
+            <li>
+              <a href="contact.html" class="footer-link">Contact Us</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+
+        
+
+            <li class="footer-item">
+              <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+              <address class="contact-link address">
+                CityPlaza, KN2 St, Nyarugenge - Kigali
+              </address>
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+              <a href="250785912584" class="contact-link">+250 785 912 584</a>
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+              <a href="mailto:mail@inzozibusinessadvisory.com" class="contact-link">mail@inzozibusinessadvisory.com</a>
+            </li>
+
+            <li class="footer-item">
+              <ul class="social-list">
+
+              
+
+                <li>
+                  <a href="https://x.com/iba_rw" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/ibaconsulting_rw?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+                 <li>
+                  <a href="https://www.linkedin.com/in/inzozi-business-advisory-iba-consulting-ltd-0a1728371/" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://wa.me/785912584?text=Hello,%20I'm%20interested%20in%20your%20accounting%20services." class="social-link">
+                      <ion-icon name="logo-whatsapp"></ion-icon>
+                  </a>
+                </li>
+
+            
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+
+          <p class="copyright">
+            &copy; 2025 | All Rights Reserved by IBA Consulting.
+          </p>
+
+          <ul class="footer-bottom-list">
+
+            <li>
+              <a href="faq.html" class="footer-bottom-link">FAQS</a>
+            </li>
+
+            <li>
+              <a href="terms.html" class="footer-bottom-link">Terms of Use</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
